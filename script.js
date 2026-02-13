@@ -1,6 +1,6 @@
-var number1 = +prompt("enter a number")
-var arithmetic = prompt("enter an arithmetic")
-var number2 = +prompt("enter a number")
+var number1 = +prompt("enter a number").trim()
+var arithmetic = prompt("enter an arithmetic").trim()
+var number2 = +prompt("enter a number").trim()
 
 var a = "+"
 var b = "-"
